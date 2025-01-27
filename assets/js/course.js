@@ -12,19 +12,64 @@ const courses = [
         { title: "5. Twitter account Profile Setup ", youtubeId: "dX7_7SOA8DI" },
         { title: "6. Twitter Search Company/Person ", youtubeId: "s-atBeBqpP4" },
         { title: "7. Twitter Post ", youtubeId: "F8xZqn39mVk" },
-        { title: "8. Twitter Ads ", youtubeId: "KMqHXESJs8w" },
+        // { title: "8. Twitter Ads ", youtubeId: "KMqHXESJs8w" },
       ],
     },
     {
       id: 2,
-      title: "Freelance Mastery",
-      description: "Learn how to master freelancing.",
-      image: "https://i.ibb.co/NyVwMJY/image2.png",
+      title: "Pinterest Marketing",
+      description: "Pinterest Marketing Bangla Tutorial Full Course",
+      image: "https://i.ibb.co.com/xsMvjBp/Pinterest-Marketing.png",  
       videos: [
-        { title: "Video 1 - Getting Started", youtubeId: "E4x5f0JxiOg" },
-        { title: "Video 2 - Building Your Portfolio", youtubeId: "X9S21wzXNkI" },
+        { title: "1. Pinterest Account Create and Setup", youtubeId: "ZLYHCcDqiH8" },
+        { title: "2. পিনটারেস্ট মার্কেটিং | Pinterest Marketing", youtubeId: "0msivr_86d4" },
       ],
     },
+    {
+        id: 3,
+        title: "Tumblr Marketing",
+        description: "Tumblr Marketing Bangla Tutorial Full Course",
+        image: "https://i.ibb.co.com/jy3RZPm/6204957b7892d9601c2550a0-tumblr-marketing.jpg",  
+        videos: [
+            { title: "1. How to Create Tumblr Account", youtubeId: "U7mgbti8Cs0" },
+            { title: "2. Tumblr Marketing ", youtubeId: "ZMRKVQUQJvc" },
+            { title: "3. Tumblr Marketing A to Z ", youtubeId: "HUe-khEpJ3g" },
+        ],
+      },
+    {
+        id: 4,
+        title: "Reddit Marketing",
+        description: "Tumblr Marketing Bangla Tutorial Full Course",
+        image: "https://i.ibb.co.com/brfmy7B/reddit-marketing.png",  
+        videos: [
+            { title: "1. How to create account Reddit", youtubeId: "tazkXbsnC_M" },
+            { title: "2. Profile Setup and Post", youtubeId: "q8JpzlTR7ec" },
+            { title: "3. How to build reddit karma quickly", youtubeId: "2Sb6BHGlccc" },
+            { title: "4. Get reddit karma fast", youtubeId: "NgtkFFaWOpo" },
+        ],
+      },
+    {
+        id: 5,
+        title: "Linkedin Marketing",
+        description: "Linkedin Marketing Bangla Tutorial Full Course",
+        image: "https://i.ibb.co.com/VVrH7Jy/image.png",
+        videos: [
+            { title: "1. How to Create a New Linkedin Account", youtubeId: "juTuewRbU5I" },
+            { title: "2. কীভাবে আপনার LinkedIn Profile সাজাবেন?", youtubeId: "bMWJDiOpEO0" },
+            { title: "3. সহজেই LinkedIn -এ সুন্দর পোস্ট করুন", youtubeId: "AtM7PkQHngg" },
+            { title: "4. Linkedin Account Restrictions এর সহজ সমাধান", youtubeId: "05T7ddU8nj8" },
+        ],
+      },
+    {
+        id: 6,
+        title: "Xing Marketing",
+        description: "Xing Marketing Bangla Tutorial Full Course",
+        image: "https://i.ibb.co.com/gdftqx5/image.png", 
+        videos: [
+            { title: "1. Start Social Marketing Xing.com", youtubeId: "encJshJuJvE" },
+            { title: "2. Create an account on XING with your completer", youtubeId: "PncXhH7rhgE" },
+        ],
+      },
   ];
   
   const urlParams = new URLSearchParams(window.location.search);
