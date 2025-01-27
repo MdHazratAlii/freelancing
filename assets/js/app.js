@@ -4,20 +4,36 @@ const courses = [
       title: "Twitter Marketing",
       description: "Twitter Marketing Bangla Tutorial | Full Course",
       image: "https://i.ibb.co.com/WfMwY4g/8-C-Website-Blog-What-is-Twitter-Marketing-and-How-Can-It-Benefit-You-1.png",  
-      videos: [
-        { title: "Video 1 - Introduction", youtubeId: "LioxGJIMDZY" },
-        { title: "Video 2 - Basics", youtubeId: "dRinkeW2F88" },
-      ],
     },
     {
       id: 2,
-      title: "Freelance Mastery",
-      description: "Learn how to master freelancing.",
-      image: "https://i.ibb.co/NyVwMJY/image2.png",  
-      videos: [
-        { title: "Video 1 - Getting Started", youtubeId: "E4x5f0JxiOg" },
-        { title: "Video 2 - Building Your Portfolio", youtubeId: "X9S21wzXNkI" },
-      ],
+      title: "Pinterest Marketing",
+      description: "Pinterest Marketing Bangla Tutorial Full Course",
+      image: "https://i.ibb.co.com/xsMvjBp/Pinterest-Marketing.png",  
+    },
+    {
+      id: 3,
+      title: "Tumblr Marketing",
+        description: "Tumblr Marketing Bangla Tutorial Full Course",
+        image: "https://i.ibb.co.com/jy3RZPm/6204957b7892d9601c2550a0-tumblr-marketing.jpg",  
+    },
+    {
+        id: 4,
+        title: "Reddit Marketing",
+        description: "Tumblr Marketing Bangla Tutorial Full Course",
+        image: "https://i.ibb.co.com/brfmy7B/reddit-marketing.png",  
+    },
+    {
+        id: 5,
+        title: "Linkedin Marketing",
+        description: "Linkedin Marketing Bangla Tutorial Full Course",
+        image: "https://i.ibb.co.com/VVrH7Jy/image.png",  
+    },
+    {
+        id: 6,
+        title: "Xing Marketing",
+        description: "Xing Marketing Bangla Tutorial Full Course",
+        image: "https://i.ibb.co.com/gdftqx5/image.png",  
     },
   ];
   
