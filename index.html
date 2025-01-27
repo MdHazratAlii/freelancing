@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelancing Basic Course</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/app.js"></script>
+  <style>
+    /* Enforcing 16:9 aspect ratio */
+    .aspect-ratio-16-9 {
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    }
+    .aspect-ratio-16-9 img, .aspect-ratio-16-9 iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <header class="bg-green-500 text-white py-4">
+    <div class="container mx-auto flex items-center justify-between px-4">
+      <div>
+        <img src="https://i.ibb.co/zfmR0qm/1631746044125.jpg" alt="Logo" class="w-20 h-20 object-cover rounded-full">
+      </div>
+      <div class="text-center flex-grow">
+        <h1 class="text-3xl font-bold">Freelancing Basic Course</h1>
+        <p class="text-xl">by MD HAZRAT ALI</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="container mx-auto my-8 px-4">
+    <h2 class="text-xl font-semibold mb-6">Available Courses</h2>
+    <div id="courseList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-green-500 text-white text-center py-4 mt-8">
+    <p class="text-sm">This is an open-source project used with Youtube videos. All content is free and publicly available on YouTube.</p>
+  </footer>
+
+</body>
+</html>
