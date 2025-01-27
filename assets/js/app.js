@@ -41,7 +41,7 @@ const courses = [
   
   courses.forEach((course) => {
     courseList.innerHTML += `
-      <a href="course.html?id=${course.id}" class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition">
+      <a href="course?id=${course.id}" class="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition">
         <div class="aspect-ratio-16-9">
           <img src="${course.image}" alt="${course.title}" class="object-cover w-full h-full rounded-lg">
         </div>
